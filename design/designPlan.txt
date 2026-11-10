@@ -1,0 +1,200 @@
+OM Ekdantay Electricals – Website Development Plan
+
+1. Website ka main purpose
+Website ka primary goal hoga:
+- Company ki professional online identity banana.
+- Electrical engineering services showcase karna.
+- Completed projects aur experience display karna.
+- Potential clients se enquiries generate karna.
+- Company ki credibility aur trust build karna.
+
+
+
+
+2. Website structure – Frontend
+Main website ko 10 major sections/pages mein divide karenge.
+
+
+
+1. Home Page
+Hero banner, company introduction, key services, featured projects, achievements and enquiry CTA.
+
+
+2. About Us
+Company profile, vision, mission, experience, expertise and team introduction.
+
+
+3. Our Services
+Electrical contracting, HT/LT work, control panels, DG sets, street lighting and infrastructure solutions.
+
+
+4. Projects
+Completed projects, project images, client details and project descriptions.
+
+
+5. Products
+Electrical panels, equipment and other products with specifications.
+
+
+
+
+5. Products
+Electrical panels, equipment and other products with specifications.
+
+
+6. Our Clients
+Client logos, partnerships and testimonials.
+
+
+7. News & Updates
+Company announcements, updates and industry information.
+
+
+8. Contact Us
+Contact details, Google Maps, enquiry form and WhatsApp integration.
+
+
+
+3. Backend – Node.js + Express
+Backend ka kaam website ke dynamic content aur admin operations manage karna hoga.
+
+
+
+
+
+
+Module	                  Functionality
+Authentication             Admin login/logout
+Services API	           Add, edit, delete services
+Projects API	           Manage projects and images
+Products API	           Manage product details
+Clients API                Manage client logos
+Testimonials API	       Manage reviews
+Enquiry API	               Receive and manage enquiries
+News API	               Manage news and updates
+Upload API	              Upload images and documents
+
+
+
+
+
+
+
+Admin dashboard features:
+- Dashboard overview and enquiry statistics.
+- Manage services.
+- Manage projects and project images.
+- Manage products.
+- Manage client logos.
+- Manage testimonials.
+- Manage news and updates.
+- View enquiries and update enquiry status.
+- Change website contact information.
+
+
+
+
+
+
+
+
+5. MongoDB Database Structure
+Initially ye collections plan karenge:
+Collection	            Stored data
+Admins	                Admin credentials and roles
+Services	            Service information
+Projects	            Project details and images
+Products	            Product information
+Clients	                Client details and logos
+Testimonials	        Client feedback
+Enquiries	            Customer enquiries
+News	                News and articles
+
+
+
+
+
+
+6. Technology & libraries
+Purpose           	  Technology
+Frontend	           React + Vite
+Styling	               React Router DOM
+Icons	               Lucide React
+Notifications       	React Hot Toast
+API calls	              Axios
+Backend	                  Node.js + Express.js
+Database	                 MongoDB + Mongoose
+Authentication	           JWT + bcrypt
+Image upload                 Multer + Cloudinary
+Deployment	                   Frontend + Node hosting
+
+
+
+
+
+
+
+
+
+
+7. Development phases
+Hum project ko 6 phases mein complete karenge.
+1. Phase 1 – Planning & Requirements
+   - Client ki complete information understand karna.
+   - Services, products aur projects ki list finalize karna.
+   - Website sitemap and content planning.
+2. Phase 2 – UI/UX Design
+   - Logo and brand colours finalize.
+   - Homepage design.
+   - Inner pages design.
+   - Mobile responsive layouts.
+3. Phase 3 – Frontend Development
+   - React project setup.
+   - Reusable components.
+   - All website pages.
+   - Responsive navigation and animations.
+4. Phase 4 – Backend Development
+   - Express server setup.
+   - MongoDB connection.
+   - API development.
+   - Authentication and image upload.
+5. Phase 5 – Admin Panel & Integration
+   - Admin dashboard.
+   - CRUD operations.
+   - Frontend-backend integration.
+   - Enquiry management.
+6. Phase 6 – Testing & Deployment
+   - Mobile and desktop testing.
+   - API testing.
+   - SEO optimization.
+   - Domain and hosting deployment.
+8. Brand identity
+OM Ekdantay Electricals
+
+Navy Blue
+#092B56 – Primary
+
+Orange
+#FF7900 – Accent
+
+
+White
+#FFFFFF – Background
+
+Light Grey
+#F3F5F8 – Sections
+
+Logo, buttons, headings and website components mein consistent branding use karenge.
+
+
+
+
+
+
+
+
+
+
+
+
+

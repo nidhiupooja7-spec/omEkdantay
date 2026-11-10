@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* OM Ekdantay Electricals – brand colours (designPlan.txt) */
+@theme {
+  --color-navy: #092b56;
+  --color-navy-dark: #061d3b;
+  --color-brand-orange: #ff7900;
+  --color-brand-orange-dark: #e66d00;
+  --color-section: #f3f5f8;
+
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-white text-navy antialiased;
+}
+
+/* Hero slider text animation */
+@keyframes hero-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hero-fade-up {
+  animation: hero-fade-up 0.8s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-fade-up {
+    animation: none;
+  }
+}
