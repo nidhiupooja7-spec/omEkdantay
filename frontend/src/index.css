@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
-/* OM Ekdantay Electricals – brand colours (designPlan.txt) */
+/* OM Ekdantay Electricals – brand colours, sampled from the shop-front poster.
+   Token names (navy / section) are kept so existing class names keep working. */
 @theme {
-  --color-navy: #092b56;
-  --color-navy-dark: #061d3b;
-  --color-brand-orange: #ff7900;
-  --color-brand-orange-dark: #e66d00;
-  --color-section: #f3f5f8;
+  --color-navy: #012681;        /* poster navy (headings, primary) */
+  --color-navy-dark: #00205b;   /* poster deep navy (footer / CTA bands) */
+  --color-brand-orange: #f98a04;/* poster orange (CTAs, highlights) */
+  --color-brand-orange-dark: #e07400;
+  --color-section: #fff7ec;     /* soft warm tint for section backgrounds */
 
   --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
